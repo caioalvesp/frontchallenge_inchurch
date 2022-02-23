@@ -1,0 +1,9 @@
+.serie-palavras {
+  background-color: rgb(229, 229, 229);
+  padding: 0 20% 2.5% 20%;
+}
+
+.serie-cards {
+  display: flex;
+  padding: 5% 0;
+}

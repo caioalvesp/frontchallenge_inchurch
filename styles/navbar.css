@@ -1,0 +1,19 @@
+.navbar {
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.nav-list {
+  display: flex;
+  gap: 2.5rem;
+  margin-left: 30%;
+}
+
+.nav-link {
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}

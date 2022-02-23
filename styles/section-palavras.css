@@ -1,0 +1,46 @@
+.palavras {
+  background-color: rgb(229, 229, 229);
+  padding: 5% 20% 2.5% 20%;
+}
+
+.linha {
+  content: '';
+  height: 2px;
+  background-color: black;
+}
+
+.palavras-cards {
+  display: grid;
+  grid-template-areas:
+    'principal sec'
+    'principal sec2';
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 5% 0;
+}
+
+.card-principal {
+  background-image: url('../assets/imgs/venon.jpeg');
+  background-size: cover;
+  height: 456px;
+  width: 744px;
+  border-radius: 1rem;
+  color: white;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-end;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 1.5rem;
+  grid-area: principal;
+}
+
+.card-sec {
+  grid-area: sec;
+}
+
+.sec2 {
+  grid-area: sec2;
+}
